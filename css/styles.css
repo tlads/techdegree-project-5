@@ -1,0 +1,38 @@
+/* grid */
+
+.grid-container {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);  
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    max-width: 660px;
+    margin: 0 auto;
+    
+    
+}
+
+.grid-container > a > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+/* other layout */
+
+#search {
+    display: block;
+    margin: 30px auto;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 184, 184);
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
